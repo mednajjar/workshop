@@ -76,6 +76,7 @@ Dans le jeu de casino Blackjack, un joueur peut obtenir un avantage sur la maiso
 Le fait d'avoir plus de cartes hautes dans le jeu favorise le joueur. Une valeur est attribuée à chaque carte selon le tableau ci-dessous. Lorsque le décompte est positif, le joueur doit miser la plus haute carte. Lorsque le compte est nul ou négatif, le joueur doit miser faible.
 
  Décompte 		Cartes
+
 +1 :			2, 3, 4, 5, 6
 
 0  :                    7, 8, 9
