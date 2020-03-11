@@ -76,12 +76,16 @@ Dans le jeu de casino Blackjack, un joueur peut obtenir un avantage sur la maiso
 Le fait d'avoir plus de cartes hautes dans le jeu favorise le joueur. Une valeur est attribuée à chaque carte selon le tableau ci-dessous. Lorsque le décompte est positif, le joueur doit miser la plus haute carte. Lorsque le compte est nul ou négatif, le joueur doit miser faible.
 
  Décompte 		Cartes
-+1 				2, 3, 4, 5, 6
-				0 7, 8, 9
--1 				10, "J", "Q", "K", "A"
++1 :			2, 3, 4, 5, 6
+
+0  :                    7, 8, 9
+
+-1 :			10, "J", "Q", "K", "A"
 
 Vous écrirez une fonction de comptage de cartes. Elle recevra un paramètre de carte, qui peut être un nombre ou une chaîne de caractères, et incrémentera ou décrémentera la variable de comptage globale en fonction de la valeur de la carte (voir tableau). La fonction renverra ensuite une chaîne avec le comptage actuel et la chaîne Bet si le comptage est positif, ou Hold si le comptage est nul ou négatif. Le décompte actuel et la décision du joueur (Bet ou Hold) doivent être séparés par un seul espace.
 
 Exemple de sortie
+
 -3 	Attend
+
 5 	Pari 
