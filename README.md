@@ -10,7 +10,7 @@ L'objectif de cette partie est de vous familiariser avec la syntaxe JavaScript. 
 
 Le code de cet exercice peut être exécuté via Node.js ou dans l'onglet "console" des outils de développement de votre navigateur.
 
-### Enoncée 1
+### Enoncé 1
 1. Définissez une fonction `addFavoriteBook(..)` qui reçoit un seul paramètre, appelé `bookName`.
 
 2. Si la chaîne `bookName` fournie ne contient *PAS* le mot "Great", ajoutez-la au tableau `favoriteBooks`.
@@ -38,7 +38,7 @@ Conseils :
 
 	Astuce : Utilisez la boucle de style `for ( let .. of .. ) { }`.
 
-### Enoncée 2
+### Enoncé 2
 Cet exercice vise à mettre brièvement en pratique les trois piliers de JS : Types / Coercion, Scope / Closures, et `this`.
 
 1. Dans la fonction `printFavoriteBooks()`, assurez-vous qu'il n'y a pas de conversion de type accidentelle (c'est-à-dire de nombre en chaîne de caractères).
@@ -59,7 +59,7 @@ Cet exercice vise à mettre brièvement en pratique les trois piliers de JS : Ty
 
 	Astuce : instanciation de la classe : `new Whatever()`.
 
-### Enoncée 3 : Queues
+### Enoncé 3 : Queues
 
 En informatique, une file d'attente est une structure abstraite de données où les articles sont maintenus en ordre. De nouveaux articles peuvent être ajoutés en fin de file et les anciens articles sont retirés du début de la file.
 
@@ -69,19 +69,19 @@ Ajoutez le nombre à la fin du tableau, puis retirez le premier élément du tab
 
 La fonction nextInLine doit alors renvoyer l'élément qui a été supprimé.
 
-### Enoncée 4
+### Enoncé 4
 
 Dans le jeu de casino Blackjack, un joueur peut obtenir un avantage sur la maison en gardant une trace du nombre relatif de cartes hautes et basses restant dans le jeu. C'est ce qu'on appelle le comptage des cartes.
 
 Le fait d'avoir plus de cartes hautes dans le jeu favorise le joueur. Une valeur est attribuée à chaque carte selon le tableau ci-dessous. Lorsque le décompte est positif, le joueur doit miser la plus haute carte. Lorsque le compte est nul ou négatif, le joueur doit miser faible.
 
- Décompte 		Cartes
+ Décompte : Cartes
 
-+1 :			2, 3, 4, 5, 6
++1 :::::::> 2, 3, 4, 5, 6
 
-0  :                    7, 8, 9
+0  ::::::::> 7, 8, 9
 
--1 :			10, "J", "Q", "K", "A"
+-1 :::::::> 10, "J", "Q", "K", "A"
 
 Vous écrirez une fonction de comptage de cartes. Elle recevra un paramètre de carte, qui peut être un nombre ou une chaîne de caractères, et incrémentera ou décrémentera la variable de comptage globale en fonction de la valeur de la carte (voir tableau). La fonction renverra ensuite une chaîne avec le comptage actuel et la chaîne Bet si le comptage est positif, ou Hold si le comptage est nul ou négatif. Le décompte actuel et la décision du joueur (Bet ou Hold) doivent être séparés par un seul espace.
 
