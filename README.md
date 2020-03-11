@@ -1,9 +1,16 @@
-## Contexte
+## Base du langage
+L'objectif de cette partie est de vous familiariser avec la syntaxe JavaScript. Dans cette partie, vous allez :
+
+- Apprendre à déclarer des variables.
+- Apprendre ce que sont les chaînes de caractères, les nombres, les booléens, les Null et les Undefined.
+- Apprendre ce que sont les Tableaux, les Objets et les Fonctions, This et Prototypes.
+- Apprendre à utiliser les déclarations if et else.
+- Apprenez à comparer des variables.
+- Apprendre à utiliser la boucle for.
 
 Le code de cet exercice peut être exécuté via Node.js ou dans l'onglet "console" des outils de développement de votre navigateur.
 
 ### Enoncée 1
-
 1. Définissez une fonction `addFavoriteBook(..)` qui reçoit un seul paramètre, appelé `bookName`.
 
 2. Si la chaîne `bookName` fournie ne contient *PAS* le mot "Great", ajoutez-la au tableau `favoriteBooks`.
@@ -51,3 +58,14 @@ Cet exercice vise à mettre brièvement en pratique les trois piliers de JS : Ty
 6. Créez une instance de la classe `Bookshelf`, et passez-la en argument à `loadBooks(..)`.
 
 	Astuce : instanciation de la classe : `new Whatever()`.
+
+## Enoncée 3 : Queues
+
+En informatique, une file d'attente est une structure abstraite de données où les articles sont maintenus en ordre. De nouveaux articles peuvent être ajoutés en fin de file et les anciens articles sont retirés du début de la file.
+
+Écrivez une fonction nextInLine qui prend un tableau (arr) et un nombre (item) comme arguments.
+
+Ajoutez le nombre à la fin du tableau, puis retirez le premier élément du tableau.
+
+La fonction nextInLine doit alors renvoyer l'élément qui a été supprimé.
+
